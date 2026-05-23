@@ -89,7 +89,7 @@ body{
 }
 
 .cards{
-  /* display: none; */
+  display: none;
   gap: 35px;
   flex-wrap: wrap;
   justify-content: center;

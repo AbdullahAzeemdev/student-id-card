@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,8 +29,10 @@
 
       <div class="input-box">
         <label>Select Course</label>
+
         <select id="course">
           <option selected disabled>Select Course</option>
+
           <option>Web & App Development</option>
           <option>Graphic Designing</option>
           <option>AI & Data Science</option>
@@ -50,53 +51,95 @@
         <input type="file" id="student-image">
       </div>
 
-      <button class="generate-btn" >Generate ID Card</button>
+      <button class="generate-btn">Generate ID Card</button>
 
     </div>
 
 
+
     <!-- CARDS -->
 
-    <div class="cards" >
-
+    <div class="cards">
 
       <!-- FRONT CARD -->
 
       <div class="id-card" id="front-card">
 
         <div class="top-design">
+
           <h1 class="school-name">SMIT Pakistan</h1>
-          <p class="card-type">Student Identity Card</p>
+
+          <p class="card-type">
+            Student Identity Card
+          </p>
+
         </div>
+
+
 
         <div class="student-image">
-          <img src="https://i.ibb.co/fd6X0cT/user.png" alt="student image" id="display-image">
+
+          <img 
+          src="https://i.ibb.co/fd6X0cT/user.png"
+          alt="student image"
+          id="display-image">
+
         </div>
 
-        <h1 class="student-name">Abdullah Azeem</h1>
-        <p class="course">Web & App Development</p>
+
+
+        <h1 class="student-name"></h1>
+
+        <p class="course"></p>
+
 
 
         <div class="details">
 
+          <!-- ROLL NUMBER -->
+
           <div class="detail-row">
+
             <h3>Roll Number</h3>
-            <p id="rollnum">STD-2026-001</p>
+
+            <p id="rollnum"></p>
+
           </div>
 
-          <div class="detail-row">
-            <h3 class="cnic">CNIC</h3>
-            <p>42501-1234567-1</p>
-          </div>
+
+
+          <!-- CNIC -->
 
           <div class="detail-row">
-            <h3 class="dob">Date Of Birth</h3>
-            <p>10-05-2006</p>
+
+            <h3>CNIC</h3>
+
+            <p class="cnic"></p>
+
           </div>
 
+
+
+          <!-- DATE OF BIRTH -->
+
           <div class="detail-row">
+
+            <h3>Date Of Birth</h3>
+
+            <p class="dob"></p>
+
+          </div>
+
+
+
+          <!-- SESSION -->
+
+          <div class="detail-row">
+
             <h3>Session</h3>
+
             <p>2026 - 2027</p>
+
           </div>
 
         </div>
@@ -104,6 +147,7 @@
         <div class="bottom-design"></div>
 
       </div>
+
 
 
       <!-- BACK CARD -->
@@ -114,25 +158,38 @@
           STUDENT CARD
         </div>
 
+
+
         <div class="back-content">
 
           <h2>Important Rules</h2>
 
           <ul class="rules">
+
             <li>Always carry your ID card in institute.</li>
+
             <li>ID card is non-transferable.</li>
+
             <li>Lost card should be reported immediately.</li>
+
             <li>Card must be shown when required.</li>
+
             <li>Maintain discipline inside institute.</li>
+
           </ul>
+
 
 
           <div class="barcode"></div>
 
 
+
           <div class="signature">
+
             <div class="signature-line"></div>
+
             <p>Authorized Signature</p>
+
           </div>
 
         </div>
@@ -141,10 +198,10 @@
 
       </div>
 
-
     </div>
 
   </div>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -153,4 +210,3 @@
 
 </body>
 </html>
-
